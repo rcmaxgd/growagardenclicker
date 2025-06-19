@@ -15,7 +15,9 @@
   <div class="main-container">
     <div class="upgrade-menu">
       <h2>Upgrade menu</h2>
-      <!-- Upgrades kunnen hier komen -->
+      <button onclick="buyUpgrade('tuinman')">🧑‍🌾 Tuinman (50)</button>
+      <button onclick="buyUpgrade('gieter')">💧 Gieter (200)</button>
+      <button onclick="buyUpgrade('lamp')">🌞 Groeilamp (1000)</button>
     </div>
 
     <div class="click-area">
@@ -23,8 +25,8 @@
     </div>
   </div>
 
-  <!-- Regen afbeelding -->
-  <img src="regen.png" id="rain-image" class="rain" alt="regen" />
+  <!-- Regenval -->
+  <div id="rain-container"></div>
 
   <script src="script.js"></script>
 </body>
